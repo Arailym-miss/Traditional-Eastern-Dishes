@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Eastern Cuisine Menu</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+background-color:#f5f5f5;
+margin:0;
+padding:0;
+}
+
+header{
+background:#8b0000;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+h1{
+margin:0;
+}
+
+.menu{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:30px;
+}
+
+.card{
+background:white;
+width:300px;
+margin:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+overflow:hidden;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+}
+
+.card h2{
+color:#8b0000;
+}
+
+ul{
+padding-left:20px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#222;
+color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Eastern Cuisine Restaurant</h1>
+<p>Traditional Eastern Dishes and Delicious Desserts</p>
+</header>
+
+<div class="menu">
+
+<div class="card">
+<img src="https://ist.say7.info/img0001/18/118_0134bxr_2961_1024.jpg">
+<div class="card-content">
+<h2>Plov</h2>
+
+<h3>Ingredients:</h3>
+<ul>
+<li>Rice</li>
+<li>Beef or lamb</li>
+<li>Carrots</li>
+<li>Onion</li>
+<li>Garlic</li>
+<li>Vegetable oil</li>
+<li>Spices</li>
+</ul>
+
+<h3>Preparation:</h3>
+<p>
+Meat is fried with onions and carrots in oil. Rice and spices are added,
+then everything is cooked together with water until the rice becomes soft.
+Plov is served hot and is one of the most popular eastern dishes.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Qtd9w_vUTPxBquJTRw81sUTWJu05aEbPWzYrlgrAeYvxbveycnYaltMCKQKLFxQfdP895q03fRfVWQA8PyJE1EFgEpMG9KEvxBve5EY_jw&s=10">
+<div class="card-content">
+<h2>Lagman</h2>
+
+<h3>Ingredients:</h3>
+<ul>
+<li>Noodles</li>
+<li>Beef</li>
+<li>Tomatoes</li>
+<li>Bell pepper</li>
+<li>Onion</li>
+<li>Garlic</li>
+<li>Spices</li>
+</ul>
+
+<h3>Preparation:</h3>
+<p>
+Noodles are boiled separately. Beef and vegetables are fried with spices
+to make a rich sauce. The noodles are served with the hot meat and vegetable
+sauce on top.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHRfHClJlQ13CHrnAsUJq8hz6xnr0gAVniSfFCgyw55GkxvfyOb5RqWjcPTWY5qkZ0exDtQAXr-Pd7wO_Hi5_ozYNcuyeMCtgdJDvWBp0MnQ&s=10">
+<div class="card-content">
+<h2>Baklava</h2>
+
+<h3>Ingredients:</h3>
+<ul>
+<li>Phyllo dough</li>
+<li>Honey</li>
+<li>Walnuts or pistachios</li>
+<li>Butter</li>
+<li>Sugar syrup</li>
+</ul>
+
+<h3>Preparation:</h3>
+<p>
+Thin layers of dough are filled with nuts and butter. After baking,
+sweet honey syrup is poured on top. Baklava is a famous sweet dessert
+in many eastern countries.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://thematbakh.com/wp-content/uploads/2021/07/Tahini-Halva-Easy-_-Homemade-square.jpg">
+<div class="card-content">
+<h2>Halva</h2>
+
+<h3>Ingredients:</h3>
+<ul>
+<li>Sesame paste</li>
+<li>Sugar</li>
+<li>Honey</li>
+<li>Nuts</li>
+</ul>
+
+<h3>Preparation:</h3>
+<p>
+Sesame paste is mixed with sugar and honey. Nuts are added and the mixture
+is cooled until it becomes firm. Then it is cut into small sweet pieces.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="data:image/jpeg;base64,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">
+<div class="card-content">
+<h2>Shawarma</h2>
+
+<h3>Ingredients:</h3>
+<ul>
+<li>Chicken or beef</li>
+<li>Pita bread</li>
+<li>Tomatoes</li>
+<li>Cucumbers</li>
+<li>Garlic sauce</li>
+<li>Lettuce</li>
+</ul>
+
+<h3>Preparation:</h3>
+<p>
+The meat is grilled and sliced into thin pieces. Fresh vegetables and sauce
+are placed in pita bread together with the meat. Then it is wrapped and served warm.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://myastoriya.com.ua/upload/iblock/8b2/i0e7gmbi7vc15c1tizjde2zxvfvi9vam.jpg">
+<div class="card-content">
+<h2>Samsa</h2>
+
+<h3>Ingredients:</h3>
+<ul>
+<li>Puff pastry</li>
+<li>Minced lamb or beef</li>
+<li>Onion</li>
+<li>Salt</li>
+<li>Pepper</li>
+</ul>
+
+<h3>Preparation:</h3>
+<p>
+Minced meat is mixed with chopped onions and spices.
+The filling is placed inside pastry dough and baked in the oven
+until the samsa becomes golden and crispy.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://www.simplyrecipes.com/thmb/sHj8MCtPrx6YoT5zHJxzmi1tKY4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SimplyRecipes-TurkishDelight-LEAD-04-ae80d282fa754e99bdde4e1af2d509b9.jpg">
+<div class="card-content">
+<h2>Turkish Delight</h2>
+
+<h3>Ingredients:</h3>
+<ul>
+<li>Sugar</li>
+<li>Cornstarch</li>
+<li>Water</li>
+<li>Rose water</li>
+<li>Pistachios</li>
+</ul>
+
+<h3>Preparation:</h3>
+<p>
+Sugar and water are cooked to create a thick syrup.
+Cornstarch is added to make the mixture soft and chewy.
+Nuts and rose water are mixed in, and the dessert is cut into small cubes.
+</p>
+</div>
+</div>
+
+</div>
+
+<footer>
+<p>Eastern Cuisine Restaurant © 2026</p>
+</footer>
+
+</body>
+</html>
